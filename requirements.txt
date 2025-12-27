@@ -1,0 +1,11 @@
+The notebooks are ready to run and the interactivity could be accessed through Google Colab environment.
+Following libraries are needed-
+
+numpy
+math
+numba
+time
+typing
+matplotlib.pyplot
+Ipython.display
+google.colab
