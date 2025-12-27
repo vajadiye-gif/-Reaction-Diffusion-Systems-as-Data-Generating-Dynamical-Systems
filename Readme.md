@@ -22,7 +22,8 @@ This project simulates **reaction-diffusion systems** using Python. It includes 
 The Gray-Scott model simulates activator-inhibitor dynamics producing complex patterns.
 
 **Equations:**  
-∂u/∂t = Du ∇²u - uv² + F(1-u)
+∂u/∂t = Du ∇²u - uv² + F(1-u),
+
 ∂v/∂t = Dv ∇²v + uv² - (F+k)v
 
 
@@ -40,7 +41,8 @@ See the folders Images and videos.
 The Multi-fate model simulates multiple cell fate decisions with diffusion-coupled reaction dynamics.
 
 **Equations / Dynamics:**  
-∂A/∂t = Du ∇2 A + fA(A,B)
+∂A/∂t = Du ∇2 A + fA(A,B),
+
 ∂B/∂t = Dv ∇2 B + fB(A,B)
 
 where Du and Dv are the diffusion coefficients for species A and B, respectively.
