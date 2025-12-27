@@ -111,7 +111,9 @@ Save results as arrays, images, or gifs in data/
 ## Data & Results
 
 Output videos: videos/
+
 Sample images: Images/
+
 Interactive widgets allow parameter exploration in real-time.
 
 **Note on Notebooks:**
