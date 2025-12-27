@@ -110,9 +110,13 @@ Save results as arrays, images, or gifs in data/
 
 ## Data & Results
 
-Outpu videos: videos/
+Output videos: videos/
 Sample images: Images/
 Interactive widgets allow parameter exploration in real-time.
+
+# Note on Notebooks
+Due to interactive widgets and long-running simulations, the notebooks are also provided as exported PDFs for static viewing on GitHub.
+The original interactive versions are intended to be run in Google Colab.
 
 ## Analysis & Insights
 
