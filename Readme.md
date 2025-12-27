@@ -73,11 +73,17 @@ The EMT (Epithelial-Mesenchymal Transition) model simulates diffusion-driven EMT
 
 **Equations / Dynamics:**  
 ∂[mir200]/∂t = GMIR200 hmir200 zeb hmir200 sna - [mir200]1 mir2000 - KMIR200 [mir200]0 + Dmir200 ∇2[mir200]
+
 ∂[mzeb]/∂t = GMZEB hmzeb zeb hmzeb sna - [mir200]1 mir2001 - KMZEB [mzeb] + Dmzeb ∇2[mzeb]
+
 ∂[ZEB]/∂t = GZEB [mir200]1 mir2002 - KZEB [ZEB] + DZEB ∇2[ZEB]
+
 ∂[SNAIL]/∂t = GSNAIL [mir34]4 mir342 - KSNAIL [SNAIL] + DSNAIL ∇2[SNAIL]
+
 ∂[MSNAIL]/∂t = GMSNAIL hmsnai hmsna sna - [mir34]4 mir341 - KMSNAIL [MSNAIL] + DMSNAIL ∇2[MSNAIL]
+
 ∂[mir34]/∂t = GMIR34 hmir34 zeb hmir34 sna - [mir34]4 mir340 - KMIR34 [mir34] + Dmir34 ∇2[mir34]
+
 ∂[I]/∂t = 0
 
 
@@ -112,7 +118,7 @@ Gray-Scott: Increasing F accelerates pattern formation.
 Multi-fate: Different diffusion constants produce distinct fate domains.
 EMT: Varying reaction rates changes cluster morphology.
 
-##Future Work
+## Future Work
 
 Add more reaction-diffusion models.
 Explore 3D pattern formation.
