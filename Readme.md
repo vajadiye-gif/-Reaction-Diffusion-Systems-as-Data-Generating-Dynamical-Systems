@@ -33,6 +33,9 @@ The Gray-Scott model simulates activator-inhibitor dynamics producing complex pa
 **Sample Output:**  
 See the folders Images and videos.
 
+![Gray–Scott Labyrinth Pattern](Gray_Scott/videos/Labirynths(F%20=%200.545,%20k=%200.062).gif)
+
+
 ---
 
 ## Multi-fate Model
