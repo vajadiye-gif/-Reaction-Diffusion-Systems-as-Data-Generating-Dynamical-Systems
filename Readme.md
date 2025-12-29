@@ -36,6 +36,7 @@ See the folders Images and videos.
 ![Gray–Scott Labyrinth Pattern](Gray_Scott/videos/Labirynths(F%20=%200.545,%20k=%200.062).gif)
 
 
+
 ---
 
 ## Multi-fate Model
@@ -107,9 +108,10 @@ pip install -r requirements.txt
 ## Usage
 
 Open the corresponding notebook in notebooks/ (in Google Colab for interactivity)
-Adjust parameters using sliders (e.g., Du, Dv, F, k)
+
+Select the species using ToggleButtons (e.g., u, v, SNAIL, ZEB ,etc.)
 Run the notebook → visualize patterns
-Save results as arrays, images, or gifs in data/
+Save results as arrays, images, or gifs if needed.
 
 ## Data & Results
 
