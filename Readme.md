@@ -65,6 +65,7 @@ B2 = 2*B^2 / [(K + 4(A + B) + sqrt(K^2 + 8 Kd (A + B))]
 
 **Sample Output:**  
 See the folders Images and videos.
+[Simulation](videos/Gray_Scott/Labirynths(F = 0.0545, k = 0.062).gif)
 
 ---
 
