@@ -31,10 +31,9 @@ The Gray-Scott model simulates activator-inhibitor dynamics producing complex pa
 **Boundary Conditions:** Periodic   
 
 **Sample Output:**  
-See the folders Images and videos.
-
 ![Gray–Scott Labyrinth Pattern](videos/Gray_Scott/Labirynths%20(F%20%3D%200.0545%2C%20k%3D0.062).gif)
 
+See the folders Images and videos for more.
 
 ---
 
@@ -67,7 +66,9 @@ B2 = 2*B^2 / [(K + 4(A + B) + sqrt(K^2 + 8 Kd (A + B))]
 **Boundary Conditions:** Periodic / Neumann
 
 **Sample Output:**  
-See the folders Images and videos.
+![MultiFate Radial Pattern](https://github.com/vajadiye-gif/-Reaction-Diffusion-Systems-as-Data-Generating-Dynamical-Systems/blob/main/videos/MultiFate/Radial%20Gradient.gif)
+
+See the folders Images and videos for more.
 
 ---
 
@@ -96,7 +97,9 @@ The EMT (Epithelial-Mesenchymal Transition) model simulates diffusion-driven EMT
 **Boundary Conditions:** Neumann
 
 **Sample Output:**  
-See the folders Images and videos.
+![EMT SNAIL Pattern](https://github.com/vajadiye-gif/-Reaction-Diffusion-Systems-as-Data-Generating-Dynamical-Systems/blob/main/videos/EMT/SNAIL.gif)
+
+See the folders Images and videos for more.
 
 ---
 
