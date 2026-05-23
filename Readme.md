@@ -390,13 +390,16 @@ Then open any notebook in `notebooks/`:
 
 ## Notebooks Guide
 
-### `Gray_Scott.ipynb`
+Note on Notebook Rendering
+Due to known ipywidgets rendering limitations on GitHub's static notebook viewer, the interactive notebooks have been provided as PDF exports rather than .ipynb files. The PDFs preserve all outputs, plots, and widget states as captured during execution. For full interactivity, the code available in the pdf files can be directly run in Google Colab / JupyterLab with the required dependencies installed.
+
+### `Gray_Scott.pdf`
 Simulates the Gray–Scott system on a 2D periodic grid. Includes parameter sweep widgets and animated visualisation of $u$ and $v$ fields. Demonstrates Turing instability from random initial perturbations.
 
-### `MultiFate.ipynb`
+### `MultiFate.pdf`
 Simulates the Multi-fate bistable circuit with several initial conditions (uniform, radial gradient, random). Visualises species $A$ and $B$ and the emergent fate domain structure. Explores how diffusion ratio alters domain size distributions.
 
-### `EMT.ipynb`
+### `EMT.pdf`
 Simulates the 7-species EMT circuit on a 2D grid with Neumann BCs. Initialises an M-state patch in an E-state background. Animates all 6 dynamic species fields (miR-200, mZEB, ZEB, SNAIL, mSNAIL, miR-34). Demonstrates spatial bistability and M-state invasion.
 
 ---
